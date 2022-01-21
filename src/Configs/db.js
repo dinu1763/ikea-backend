@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-
+require('dotenv').config();
 module.exports = () => {
-    return mongoose.connect("mongodb+srv://vaibhavhake:vaibhav@cluster0.y6jwp.mongodb.net/ikea");
+    return mongoose.connect(`${process.env.MONGO_URL}`);
 }
