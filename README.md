@@ -24,4 +24,4 @@
 
 
 #### FrontEnd Repository
-[Ikea-Backend](https://github.com/dinu1763/ikea-frontend)
+[Ikea-Frontend](https://github.com/dinu1763/ikea-frontend)
